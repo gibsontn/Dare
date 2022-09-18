@@ -19,6 +19,5 @@ public class End : MonoBehaviour
         {
             SceneManager.LoadScene("Menu");
         }
-
     }
 }
