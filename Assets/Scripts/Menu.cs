@@ -20,6 +20,11 @@ public class Menu : MonoBehaviour
         {
             SceneManager.LoadScene("Game");
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
 }

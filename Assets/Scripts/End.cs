@@ -19,5 +19,10 @@ public class End : MonoBehaviour
         {
             SceneManager.LoadScene("Menu");
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }

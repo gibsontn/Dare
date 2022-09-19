@@ -1,12 +1,62 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - End
+    - FinishLine
+    - Game
+    - HumanoidLandController
+    - HumanoidLandInput
+    - Menu
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_ColorGradient
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-  serializedClasses: {}
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+  serializedClasses:
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputSettings/iOSSettings
+    - UnityEngine.InputSystem.iOS.PrivacyDataUsage
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.PersistentCallGroup
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/End.unity:
@@ -38,9 +88,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3006}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 6366}
+    - Class: 114
+      Script: {instanceID: 6538}
+    - Class: 114
+      Script: {instanceID: 7206}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -61,7 +131,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -71,9 +145,41 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 3006}
+    - Class: 114
+      Script: {instanceID: 3962}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 6366}
+    - Class: 114
+      Script: {instanceID: 6538}
+    - Class: 114
+      Script: {instanceID: 6920}
+    - Class: 114
+      Script: {instanceID: 7808}
+    - Class: 114
+      Script: {instanceID: 8558}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Menu.unity:
     - Class: 1
@@ -94,6 +200,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -104,11 +212,49 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2276}
+    - Class: 114
+      Script: {instanceID: 2392}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 3006}
+    - Class: 114
+      Script: {instanceID: 4428}
+    - Class: 114
+      Script: {instanceID: 4548}
+    - Class: 114
+      Script: {instanceID: 4844}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 6366}
+    - Class: 114
+      Script: {instanceID: 6538}
+    - Class: 114
+      Script: {instanceID: 6920}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -117,16 +263,10 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 655675a941ea756088027703b43352a4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Camera_Movement
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
+      Hash: c24a778d9aa393e11e54bff320ca63de
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -153,6 +293,24 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 8a874a8207a7664bdf44e61f28717254
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: 1f2cec8b8db2240187e9e28372d46fa4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 29cb5ccadda8ab62d8dba6d24d61faa4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -169,6 +327,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SimpleScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -193,6 +357,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
   - hash:
       serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
@@ -223,6 +393,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 27e5341178f188b89bdc6495710b590c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -259,6 +435,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -321,6 +503,18 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0784d4fd5b93bd75440d01eb2fac4233
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -331,6 +525,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: fe2d355deb0ca31d59a0a7cf4d141fc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark04
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -363,6 +563,12 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -387,10 +593,22 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
+      Hash: 2c0a467ee7950c941c2dd8ef6b974a7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 7536c3aaa3b668b80f1580147a12d30d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -417,10 +635,28 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishLine
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Flow.dll
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d79be48f820686024dd0d9e080d7733b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -435,16 +671,52 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: f334201bf4b6385c654256ccb69bd6ec
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Game
+  - hash:
+      serializedVersion: 2
+      Hash: 1b1db168450ba28584789c506c194e9c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -501,6 +773,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 3375c3d749f8f4cad889721b431bdc27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -511,6 +789,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 426e5bd616852254b77531cd1a8e29b6
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
@@ -525,10 +809,52 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e80c1450883443c68d6c2dade213536f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: e244702e0dc05782229aa524e4d757f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 739bf1716f5febbd3901b28879eb76a1
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c5fd7bfc1806f78178f8b5f91e072387
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 11319334e5365797f8056694f9b5dae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b6514f552bd2ee9e736a5678aa7f7de3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -555,6 +881,18 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: ede3d522ce29a72deb2613abda57d11e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: dd7520b7d4e690e8c593273e7b9fbe80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -573,10 +911,22 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 62fef86270a167c41a606cfca1ecc156
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
   - hash:
       serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
@@ -609,10 +959,22 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnter2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e6f0efd0e20669d577e9d21526b3d3f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_DigitValidator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -645,16 +1007,40 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: d85b490177c3124d2335460060a2b807
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: fc169718e5fd24cea7425f24908c0418
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4f60ff347d4efee4ef8cc7f627735018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 4d16cfbaa8e821a2b370e80844a0e9bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -679,6 +1065,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6663435805926faf16934aed992cd26b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark03
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -711,6 +1103,24 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -724,6 +1134,24 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: d3f29ba27f28c1f558880c4df5545ed3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDragMessageListener
@@ -733,6 +1161,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 76aef43e801605d1829c8805eeee135c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -757,6 +1191,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexJitter
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -789,6 +1229,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4e516d6d64d44446989426b8f725c6f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -807,6 +1253,18 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: 6943f561490fef37d732dae57a12c18d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HumanoidLandInput
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -817,6 +1275,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a1ca1237bad0f30ea5ba8f4060929114
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -837,6 +1301,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: 89b2906879e76b50266949198ecada41
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -847,6 +1317,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c1f5356fcd27668ddc25078e27f9828d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 72763ba72b43403ee09a4c54b07cb346
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -861,10 +1343,34 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: fe1fdeffc2067077b2f1a90b210c2532
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 0f8d440065a08bfcd2694c6503313758
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HumanoidLandController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -879,10 +1385,28 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexZoom
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 766d1e816bcaf02d44dc1df06af2bf9a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -903,6 +1427,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 47930f3b40e24ef5b3b5e3d9ada7097a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -912,4 +1442,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/End.unity
-  playerPath: C:/Users/taylo/Dare/Dare.exe
+  playerPath: C:/Users/taylo/Builds/Dare/Dare.exe
